@@ -34,6 +34,12 @@
   program: Interactive visualisation in Bioinformatics
   email: kper7588 [at] uni.sydney.edu.au
   
+- name: Isaac Shipsey
+  role: Exchange student (University of Bath)
+  photo: "/images/Isaac.jpg"
+  program: Machine learning in protein complex prediction
+  email: isaac.shipsey [at] sydney.edu.au  
+  
 - name: You?
   role: <a href="mailto:pengyi.yang@sydney.edu.au">Join us!</a>
   photo: "/images/Cat.png"
