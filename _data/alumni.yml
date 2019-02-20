@@ -1,4 +1,8 @@
 ---
+- name: Irene Chen
+  role: Research Assistant
+  photo: "/images/Irene.png"
+  
 - name: Chendong Ma
   role: Honours Student - Applied Statistics
   photo: "/images/Cat.png"
