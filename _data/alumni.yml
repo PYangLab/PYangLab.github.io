@@ -1,9 +1,10 @@
 ---
 - name: Irene Chen
   role: Research Assistant
-  photo: "/images/Irene.png"
   
+- name: Dinuka Perera
+  role: TSP Student
+
 - name: Chendong Ma
   role: Honours Student - Applied Statistics
-  photo: "/images/Cat.png"
 
