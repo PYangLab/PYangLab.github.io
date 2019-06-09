@@ -1,15 +1,27 @@
+---
+layout: default
+---
 
-<h4 class="news">Recent News</h4>
-
-<font size="2">
+<div class="container">
 
 
+<div class="section row">
+	<div class="col-md-12">
+	<h2 class="heading"><b>News Archive</b></h2>
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">QCMAP: An Interactive Web‐Tool for Performance Diagnosis and Prediction of LC‐MS Systems. <a href="https://t.co/8BU5Pc2Ukj">https://t.co/8BU5Pc2Ukj</a><br><br>My second first author paper!! Huge thank you to all the authors!!</p>&mdash; Taiyun Kim (@taiyun_kim) <a href="https://twitter.com/taiyun_kim/status/1130644234170699783?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
+    <div class="col-md-6">
+	<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">QCMAP: An Interactive Web‐Tool for Performance Diagnosis and Prediction of LC‐MS Systems. <a href="https://t.co/8BU5Pc2Ukj">https://t.co/8BU5Pc2Ukj</a><br><br>My second first author paper!! Huge thank you to all the authors!!</p>&mdash; Taiyun Kim (@taiyun_kim) <a href="https://twitter.com/taiyun_kim/status/1130644234170699783?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote>
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div> 
+    
+    <div class="col-md-6">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Multi-omic Profiling Reveals Dynamics of the Phased Progression of Pluripotency: Cell Systems <a href="https://t.co/CvQHyZpk10">https://t.co/CvQHyZpk10</a></p>&mdash; Pengyi Yang (@PengyiYang82) <a href="https://twitter.com/PengyiYang82/status/1126222123322601472?ref_src=twsrc%5Etfw">May 8, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div> 
+
+
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">scMerge leverages factor analysis, stable expression, and pseudoreplication to merge multiple single-cell RNA-seq datasets <a href="https://t.co/JhjAERWbQ5">https://t.co/JhjAERWbQ5</a></p>&mdash; Pengyi Yang (@PengyiYang82) <a href="https://twitter.com/PengyiYang82/status/1121905458434854913?ref_src=twsrc%5Etfw">April 26, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -27,10 +39,7 @@
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-{% for post in site.posts limit: 8 %}
-<p> <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> </p>
-<p>    <a class="post-link" href="{{ post.url }}">{{ post.title }}</a></p>
-{% endfor %}
 
 
-</font>
+	</div>
+</div>
