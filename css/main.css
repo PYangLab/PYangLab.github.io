@@ -182,7 +182,7 @@ p.pub-abstract {
 blockquote.twitter-tweet {
   display: inline-block;
   font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   line-height: 16px;
   border-color: #eee #ddd #bbb;
@@ -196,7 +196,7 @@ blockquote.twitter-tweet {
 }
 
 blockquote.twitter-tweet p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 20px;
 }
