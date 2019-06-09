@@ -123,6 +123,7 @@ footer .social-media-list li {
     display: block;
     height: 200px;
     width: 200px;
+    float: left;
 }
 
 img.pub-image {
