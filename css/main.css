@@ -121,6 +121,9 @@ footer .social-media-list li {
     display: block;
     margin: 2px 0 0 0;
 }
+.person .person-description{
+	text-align: center;
+}
 
 .person-photo {
     display: block;
