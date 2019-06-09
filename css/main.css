@@ -137,6 +137,11 @@ img.pub-image {
     width: 100px;
 }
 
+img.band {
+	width: 100%;
+    height: auto;
+}
+
 .pub {
     padding-top: 10px;
 }
