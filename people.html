@@ -9,11 +9,8 @@ layout: default
 
         {% for person in site.data.people %}
 
-        <div class="person col-mg-1">
-            <img src="{{ person.photo }}"
-                 alt="photo" class="person-photo img-circle">
-        
-
+        <div class="person col-mg-2 col-sm-2">
+            <img src="{{ person.photo }}" alt="photo" class="person-photo img-circle">
 
             {{ person.name }}
             {{ person.role }}
