@@ -2,11 +2,14 @@
 - name: Pengyi Yang
   photo: "/images/Pengyi.jpg"
   program: DECRA & USyd Robinson Fellow
-  email: pengyi.yang [at] sydney.edu.au
+  email: pengyi.yang@sydney.edu.au
   role: Group Leader
-  other: test
+  other: The Yang lab aims to understand how cells establish cell-type identities and make cell-fate decisions, at all
+  major levels of molecular regulations (e.g. signalling, transcription, translation, and epigenetics). We use a systems approach
+  that combines computational methods and wetlab experiments to study such 'trans-regulatory' systems, with a focus in stem cell
+  and developmental systems.
   
-- name: Thomas Geddes (Tom)
+- name: Thomas Geddes
   role: PhD Student
   photo: "/images/Tom.png"
   program: Deep learning in Bioinformatics
