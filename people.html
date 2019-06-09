@@ -9,13 +9,13 @@ layout: default
 
         {% for person in site.data.people %}
 
-        <div class="person col-mg-2">
+        <div class="person col-mg-1">
             <img src="{{ person.photo }}"
                  alt="photo" class="person-photo img-circle">
         
 
 
-            <h3 class="person-role">{{ person.name }}</h3>
+            {{ person.name }}
             {{ person.role }}
             {{ person.program }}
             {{ person.other }}
