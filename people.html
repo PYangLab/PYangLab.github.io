@@ -12,11 +12,11 @@ layout: default
         <div class="person" col-md-1>
             <img src="{{ person.photo }}" alt="photo" class="person-photo img-circle">
 
-            {{ person.name }}
-            {{ person.role }}
+            <h3 class="person-role">{{ person.name }}</h3>
+            <p class="person-role">{{ person.role }}
             {{ person.program }}
             {{ person.other }}
-            {{ person.email }}
+            {{ person.email }}</p>
 		</div>
 
         {% endfor %}
