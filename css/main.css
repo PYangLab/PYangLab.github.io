@@ -140,6 +140,7 @@ img.pub-image {
 img.band {
 	width: 100%;
     height: auto;
+    margin: 10px auto;
 }
 
 .pub {
