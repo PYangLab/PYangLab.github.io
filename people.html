@@ -9,9 +9,11 @@ layout: default
 
         {% for person in site.data.people %}
 
-        <div class="person col-mg-1">
+        <div class="person col-mg-2">
             <img src="{{ person.photo }}"
                  alt="photo" class="person-photo img-circle">
+        
+
 
             <h3 class="person-role">{{ person.name }}</h3>
             <p class="person-role">{{ person.role }}
@@ -19,9 +21,7 @@ layout: default
             <br>{{ person.other }}
             <br>{{ person.email }}
             </p>
-
-
-        </div>
+		</div>
 
         {% endfor %}
 
