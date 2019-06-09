@@ -4,33 +4,32 @@
   program: DECRA & USyd Robinson Fellow
   email: pengyi.yang@sydney.edu.au
   role: Group Leader
-  other: The Yang lab aims to understand how cells establish cell-type identities and make cell-fate decisions, at all major levels of molecular regulations (e.g. signalling, transcription, translation, and epigenetics). We use a systems approach that combines computational methods and wetlab experiments to study such 'trans-regulatory' systems, with a focus in stem cell and developmental systems.
-  
+  other: The Yang lab aims to understand how cells establish cell-type identities and make cell-fate decisions, at all major levels of molecular regulations (e.g. signalling, transcription, translation, and epigenetics). We use a systems approach that combines computational methods and wetlab experiments to study such 'trans-regulatory' systems, with a focus in stem cells and developmental systems.
   
 - name: Thomas Geddes
-  role: PhD Student
   photo: "/images/Tom.png"
-  program: Deep learning in Bioinformatics
   email: thomas.geddes@sydney.edu.au
-
-- name: Hani Kim
   role: PhD Student
+  program: Tom is a PhD candidate in the School of Life and Environmental Sciences, University of Sydney. He is interested in developing machine learning and in particular deep learning methods for addressing various biological questions ranging from protein complex prediction to cell-type identification from single-cell omics data. He is also interested in teaching and mentoring and have contributed to units such as computational statistical methods (STAT5003).
+  
+- name: Hani Kim
   photo: "/images/Hani.png"
-  program: Signalling in cell systems
-  email: jkim9191 [at] uni.sydney.edu.au
+  email: jieun.kim@sydney.edu.au
+  role: PhD Student
+  program: Hani is a PhD candidate in the School of Mathematics and Statistics, University of Sydney. She is interested in understanding pluripotency transitions among different stem cell types. Her research combines lab experiments with computational data analytics and examplifies multidisciplinary approach our lab takes to understand molecular regulations in stem cells and development.  
   
 - name: Taiyun Kim
-  role: PhD Student
   photo: "/images/Taiyun.jpg"
-  program: Single cell RNA-seq analysis
-  email: taiyun.kim [at] sydney.edu.au
+  email: taiyun.kim@sydney.edu.au
+  role: PhD Student
+  program: Taiyun is a PhD candidate in the School of Mathematics and Statistics, University of Sydney. His research interest is on developing computational and analytic methods for integrative analyses of bulk and single-cell multi-omic data in the broad domains of systems biology and health science. Since started his PhD, he has gained experience in analysing ChIP-seq, MS-based proteomics, bulk and scRNA-seq data and published papers on and tools for each of these data types.
   
 - name: Isaac Shipsey
-  role: Exchange student (University of Bath)
   photo: "/images/Isaac.jpg"
-  program: Machine learning in protein complex prediction
-  email: isaac.shipsey [at] sydney.edu.au  
+  email: isaac.shipsey@sydney.edu.au 
+  role: Exchange student (University of Bath)
+  program: Isaac is an exchange student from the University of Bath, UK. He is learning machine learning and deep learning techniques from our lab and contributing to their applications in particular in protein complex prediction using diverse mass spectrometry-based proteomics profiling datasets. 
   
-- name: You?
-  role: <a href="mailto:pengyi.yang@sydney.edu.au">Join us!</a>
+- name: Join our lab!
+  role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
   photo: "/images/Cat.png"
