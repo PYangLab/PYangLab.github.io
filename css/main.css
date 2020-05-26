@@ -213,23 +213,3 @@ blockquote.twitter-tweet a:focus {
   text-decoration: underline;
 }
 
-
-.box {
-  float: left;
-  height: 10px;
-  width: 10px;
-  margin-bottom: 15px;
-  clear: both;
-}
-
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
-
-.blue {
-  background-color: blue;
-}
