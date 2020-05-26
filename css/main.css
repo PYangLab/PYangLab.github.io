@@ -214,4 +214,22 @@ blockquote.twitter-tweet a:focus {
 }
 
 
+.box {
+  float: left;
+  height: 10px;
+  width: 10px;
+  margin-bottom: 15px;
+  clear: both;
+}
 
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
