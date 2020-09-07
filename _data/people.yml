@@ -2,7 +2,8 @@
 - name: Pengyi Yang
   photo: "/images/Pengyi.jpg"
   email: pengyi.yang@sydney.edu.au
-  role: Group Leader; NHMRC Investigator <a href="/pdf/PengyiYang-CV.pdf">CV</a>
+  role: Group Leader; NHMRC Investigator
+  program: SMS; CMRI, USyd
 
 - name: Hani Kim
   photo: "/images/Hani.png"
@@ -14,13 +15,13 @@
   photo: "/images/Di.jpg"
   email: dxia3447@uni.sydney.edu.au
   role: PhD Student
-  Affiliation: CMRI, USyd
+  program: CMRI, USyd
   
 - name: Lijia Yu
   photo: "/images/Lijia.jpg"
   email: liyu3896@uni.sydney.edu.au
   role: PhD Student
-  Affiliation: SMS, USyd
+  program: SMS, USyd
     
 - name: Thomas Geddes
   photo: "/images/Tom.png"
