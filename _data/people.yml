@@ -35,11 +35,11 @@
   role: PhD Student
   program: SMS, USyd
       
-- name: Isaac Shipsey
-  photo: "/images/Isaac.jpg"
-  email: isaac.shipsey@sydney.edu.au 
-  role: Exchange student
-  program: University of Bath
+- name: Hao Huang
+  photo: "/images/Hao.jpg"
+  email: hhua3090@uni.sydney.edu.au
+  role: MPhil student
+  program: SMS, USyd
   
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
