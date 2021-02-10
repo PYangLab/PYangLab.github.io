@@ -1,9 +1,18 @@
 ---
+- name: Carrisa Chen
+  program: Honours Student
+
+- name: Michael Lin
+  program: Honours Student
+
+- name: Isaac Shipsey
+  program: Exchange student (Bath University, UK)
+
 - name: Irene Chen
-  role: Research Assistant
+  program: Research Assistant
   
 - name: Dinuka Perera
-  role: TSP Student
+  program: Talented Student Program
 
 - name: Chendong Ma
   program: Honours Student
