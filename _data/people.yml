@@ -3,43 +3,43 @@
   photo: "/images/Pengyi.jpg"
   email: pengyi.yang@sydney.edu.au
   role: NHMRC Investigator
-  program: SMS; CMRI, USyd
+  #program: Maths and Stats; CMRI, USyd
 
 - name: Hani Kim
   photo: "/images/Hani.png"
   email: jieun.kim@sydney.edu.au
   role: PhD Student
-  program: SMS; CMRI, USyd
+  program: Maths and Stats; CMRI, USyd
   
 - name: Di Xiao
   photo: "/images/Di.jpg"
   email: dxia3447@uni.sydney.edu.au
   role: PhD Student
-  program: CMRI, USyd
+  program: Health and Medicine, CMRI, USyd
   
 - name: Lijia Yu
   photo: "/images/Lijia.jpg"
   email: liyu3896@uni.sydney.edu.au
   role: PhD Student
-  program: SMS, USyd
+  program: Maths and Stats, USyd
     
 - name: Thomas Geddes
   photo: "/images/Tom.png"
   email: thomas.geddes@sydney.edu.au
   role: PhD Student
-  program: SoLES, USyd
-      
+  program: Life Sciences, USyd
+
 - name: Taiyun Kim
   photo: "/images/Taiyun.jpg"
   email: taiyun.kim@sydney.edu.au
   role: PhD Student
-  program: SMS, USyd
+  program: Maths and Stats, USyd
       
 - name: Hao Huang
   photo: "/images/Hao.jpg"
   email: hhua3090@uni.sydney.edu.au
   role: MPhil student
-  program: SMS, USyd
+  program: Maths and Stats, USyd
   
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
