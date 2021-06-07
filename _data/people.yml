@@ -40,6 +40,12 @@
   role: MPhil student
   program: Maths & Stats, USyd
   
+- name: Chunlei Liu
+  photo: "/images/Chunlei.jpg"
+  email: cliu@cmri.org.au
+  role: Postdoctoral Researcher
+  program: Computational Systems Biology, CMRI
+  
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
   photo: "/images/Cat.png"
