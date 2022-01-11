@@ -8,9 +8,21 @@
 - name: Hani Kim
   photo: "/images/Hani.png"
   email: jieun.kim@sydney.edu.au
-  role: PhD Student
-  program: Maths & Stats; CMRI, USyd
+  role: Research Officer
+  program: Computational Systems Biology, CMRI, USyd
   
+- name: Katie Zyner
+  photo: "/images/Katie.jpg"
+  email: kzyner@cmri.org.au
+  role: Senior Research Officer
+  program: Computational Systems Biology, CMRI, USyd
+  
+- name: Chunlei Liu
+  photo: "/images/Chunlei.jpg"
+  email: cliu@cmri.org.au
+  role: Research Officer
+  program: Computational Systems Biology, CMRI, USyd
+    
 - name: Di Xiao
   photo: "/images/Di.jpg"
   email: dxia3447@uni.sydney.edu.au
@@ -41,12 +53,6 @@
   role: MPhil student
   program: Maths & Stats, USyd
   
-- name: Chunlei Liu
-  photo: "/images/Chunlei.jpg"
-  email: cliu@cmri.org.au
-  role: Postdoctoral Researcher
-  program: Computational Systems Biology, CMRI
-
 - name: Carissa Chen
   photo: "/images/Carissa.jpg"
   email: cchen@cmri.org.au
