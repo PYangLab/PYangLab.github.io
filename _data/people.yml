@@ -3,18 +3,18 @@
   photo: "/images/Pengyi.jpg"
   email: pengyi.yang@sydney.edu.au
   role: NHMRC Investigator
-  program: 
-
-- name: Hani Kim
-  photo: "/images/Hani.png"
-  email: jieun.kim@sydney.edu.au
-  role: Research Officer
-  program: Computational Systems Biology, CMRI, USyd
+  program: Group Leader
   
 - name: Katie Zyner
   photo: "/images/Katie.jpg"
   email: kzyner@cmri.org.au
   role: Senior Research Officer
+  program: Computational Systems Biology, CMRI, USyd
+  
+- name: Hani Kim
+  photo: "/images/Hani.png"
+  email: jieun.kim@sydney.edu.au
+  role: Research Officer
   program: Computational Systems Biology, CMRI, USyd
   
 - name: Chunlei Liu
@@ -46,12 +46,6 @@
   email: taiyun.kim@sydney.edu.au
   role: PhD Student
   program: Maths & Stats, USyd
-      
-- name: Hao Huang
-  photo: "/images/Hao.jpg"
-  email: hhua3090@uni.sydney.edu.au
-  role: MPhil student
-  program: Maths & Stats, USyd
   
 - name: Carissa Chen
   photo: "/images/Carissa.jpg"
@@ -59,6 +53,11 @@
   role: PhD Student
   program: Health & Medicine, CMRI, USyd
   
+- name: Hao Huang
+  photo: "/images/Hao.jpg"
+  email: hhua3090@uni.sydney.edu.au
+  role: MPhil student
+  program: Maths & Stats, USyd
   
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
