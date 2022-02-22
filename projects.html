@@ -82,70 +82,20 @@ The advance of single-cell omics and its recent development towards multimodalit
 
 <h2 class="projects"><b>Developing computational methods for pre-processing, analysing, and integrating bulk and single-cell multi-omics data and their spatial information</b></h2>
 
+Much of the work in the above research direction requires computational methods that are capable of extracting biological knowledge from large-scale of omic data generated from bulk and single-cell omics technologies. To enable these biological interrogation and discoveries, we specialise in developing computational and statistical machine learning models for analysing and integrating these data.
+    
 <div class="section row">
 	<div class="col-md-12">
-        <h3 class="heading">Project 1: Machine learning application in trans-omics</h3>    
+        <h3 class="heading">Machine learning methods for cell type annotation using single-cell multi-omic data</h3>    
         <div class="content">
-			Cell type identification is a key step in single-cell omics experiments. We are in process of developing deep learning-based methods for cell type identification from single-cell multi-omics data.<br><br>
-			
-			One interesting finding so far is that not all 'similarity' metrics are equally useful in analysing scRNA-seq data (<a href="https://doi.org/10.1093/bib/bby076">Kim et al. 2018</a>).
-			Note that most of the clustering and classification methods utilise some kind of similarity metric to compare cells. Therefore, the finding has great implication on both the development
-			of computational methods for scNRA-seq data analysis and the biology of individual cells. This project is computational and requires a good grasp of machine learning techniques. Candidates also have
-			opportunity to explore deep learning methods and their application in this domain.
+            Cell type identification is a key step in single-cell omics experiments. Our previous work has demonstrated that machine learning could be effectively applied to annotate cell types using their transcriptomic profiles <a href="https://doi.org/10.15252/msb.20199389">Lin et al.</a>. Building on this work, we are in process of developing deep learning-based methods for annotating cell types and identifying molecular features associated with cell type annotation from single-cell multi-omics data.
         </div>
     </div>
 
     <div class="col-md-12">
-        <h3 class="heading">Project 2: Application of deep learning in bioinformatics</h3>
+        <h3 class="heading">Estimating the number of cell types from single-cell omic data</h3>
         <div class="content">
-			Deep learning is the latest development in machine learning that has been successfully utilised to address 
-			many bioinformatics applications. We are interested in its application such as in transcription factor (TF)
-			binding site identification and target gene prediction.<br><br>
-			
-			The advance in chromatin immunoprecipitation followed by ultrafast sequencing (ChIP-seq) allows the profiling of TF binding sites 
-			genome-wide in a population of cells. The massive amount of sequencing data generated from these genome-wide profiling of TF 
-			requires sophisticated computational algorithms to be developed for accurately identifying TF binding sites.
-			In this project, we aim to develop and apply deep learning models for 
-			predicting TF binding sites by integrating ChIP-seq data with other biological knowledge. 
-			This project aims to develop and apply cutting-edge deep learning algorithms for solving a key biological problem.
-			You will get involved in all aspects of the development including algorithm design, implementation and testing.
-        </div>
-    </div>
-    
-    <div class="image col-md-5">
-        <img class="img-responsive" alt="Project 4 illustration" src="/images/projects/AdaSampling.png"/>
-    </div>
-    <div class="col-md-7">
-        <h3 class="heading">Project 3: Application of semi-supervised learning in bioinformatics</h3>
-        <div class="content">
-        
-        Identification of transcription factor target genes using machine learning
-        
-            We have recently developed several semi-supervised and/or knowledge-based learning methods for learning with only positive examples and in the presence of data noise 
-            (e.g. <a href="https://doi.org/10.1109/TCYB.2018.2816984">Yang et al. 2018</a>). 
-            We are now extending semi-supervised learning methods for various bioinformatics application. This includes the identification of transcription factor target
-            genes in differentiating mouse embryonic stem cells (mESCs) by integrating transcriptomics, proteomics, and epigenomics data; the classification of cell types from single-cell
-            RNA-seq data.<br><br>
-            
-            Candidates involved in this project we learn state-of-the-art machine learning methods and their applications to cutting-edge systems biology.
-        </div>
-    </div>
-	
-    <div class="col-md-12">
-        <h3 class="heading">Project 4: Pathway reconstruction and annotation using statistical models and trans-omics data sets</h3>
-        <div class="content">		
-			While all cells from a given organism have the same DNA sequence that codes for the same genes, 
-			different cell types of that organism only have a subset of genes “turned on”. 
-			Genes are commonly annotated into pathways for summarising their collective effect in the biological systems. 
-			One of the main drawbacks in current pathway annotation is that they are NOT cell type-specific.<br><br>
-			
-			We propose to identify and curate cell type-specific pathways, for example, in embryonic stem cells (ESCs) using the
-			trans-omics datasets. The key assumption is that genes within a pathway should have correlated expression profile changes when perturbed.
-			We have collected ESC differentiation data profiled in a time-course on both proteome and transcriptome levels. 
-			Following the above assumption, we aim to (1) identify pathways that are regulated specifically in ESC differentiation; 
-			and (2) curate ESC-specific pathways using statistical learning. 
-			This project will expose you to the development and application of cutting-edge statistical 
-			learning methods to the state-of-the-art bio-molecular applications. It sits at the heart of the interdisciplinary research conducted in our group. 			
+			Identifying the number of cell types in a biological system is an essential task prior in cell type annotation. Building on our previous work that uses an ensemble of deep learning models for cell type clustering <a href="https://doi.org/10.1186/s12859-019-3179-5">Geddes et al.</a>, we have recently implemented a stability based approach for number of cell type estimation <a href="https://doi.org/10.1186/s13059-022-02622-0">Yu et al.</a> from single-cell transcriptomics data. We are now exploring their application in single-cell multi-omics data.
         </div>
     </div>
 </div>
@@ -155,26 +105,20 @@ The advance of single-cell omics and its recent development towards multimodalit
 <div class="section row">
 	<div class="col-md-12">
 	<h2 class="heading"><b>Openings</b></h2>
-	<ul>
-		<li> PhD Scholarships ($39,100 tuition fee plus $25,861 stipend contribution for the duration of PhD) and honours projects are immediately available. Successful candidates will undertake 
-		exciting new projects in the general areas of Systems and Computational Biology.</li>
-		<li> Summer Research Scholarships ($513 per week for 8 weeks) are available for third year undergraduates who are interested
-		in exploring either 'wet' or 'dry' research projects in computational systems biology and consider pursuing an honours project in our group.</li>
-	</ul>
+
+<b>Post-doctoral positions</b> funded by NHMRC grant are available for conducting research on the broad area of computational systems biology in stem cells and their therapeutic application. Interested candidates are encouraged to please contact Pengyi Yang, lab head, to discuss potential projects and other details (<a href="mailto:pengyi.yang@sydney.edu.au">pengyi.yang [at] sydney.edu.au</a>)
+<br><br>
+<b>PhD scholarships</b> are available for both domestic and international candidates. Please see <a href="https://www.cmrijeansforgenes.org.au/research/opportunities-for-research-students/cmri-phd-research-award">link</a> for more details on Children's Medical Research Institute PhD Research Award. For details on scholarships offered at the University of Sydney, please see <a href="https://www.sydney.edu.au/scholarships/">link</a>.
+<br><br>
+<b>Honours projects</b> are available through either Children's Medical Research Institute, Faculty of Health and Medicine, see <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/pengyi-yang.html#collapseprofilehonorsopportunities">link</a>; or the School of Mathematics and Statistics, Faculty of Science. For more details regarding projects, please contact <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a>.
+<br><br>
+<b>Summer research scholarships</b> are available for third year undergraduates at both Children's Medical Research Institute and Charles Perkins Centre. For more details regarding potential projects and scholarships, please contact <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a>.
+<br><br>
 	
-	For postgraduate applicants, all 'wet' projects require experience with cell culturing and good understanding of basic experimental protocols (e.g. qPCR, westernblotting) and preferably experience of (single cell-)sequencing and
-	mass spectrometry-based proteomics. All 'dry' projects require programming skill
-	in at least one programming/scripting language (R, Perl, Python, Java, C++, C and Matlab). There are ample opportunity to
-	work closely with biologists, statisticians, bioinformaticians, and computer scientists.
-	<br><br>
-	To Apply: Please send CV via email to Dr. Pengyi Yang (<a href="mailto:pengyi.yang@sydney.edu.au">pengyi.yang [at] sydney.edu.au</a>)
+	For postgraduate applicants, all 'wet' projects require experience with cell culturing and good understanding of basic experimental protocols (e.g. qPCR, westernblotting) and preferably experience of (single cell-)sequencing and mass spectrometry-based proteomics. All 'dry' projects require programming skill in at least one programming/scripting language (R, Perl, Python, Java, C++, C and Matlab). There are ample opportunity to work closely with biologists, statisticians, bioinformaticians, and computer scientists.
 	<br><br>
 	More information about scholarship opportunity at the University of Sydney can be found <a href="https://sydney.edu.au/study/study-options/postgraduate-research.html">here</a>.<br>
-	For obtaining scholarships and top-ups from CMRI, please read <a href="https://www.cmri.org.au/Research/For-Students">here</a>.<br><br>
-	
-	Below is an <b>incomplete</b> list of research themes and potential/ongoing projects in our lab. Candidates are welcome to get in touch and discuss these 
-	and/or any other potential projects aligned with one or more of our research themes.<br><br>
-	
+	For obtaining scholarships and top-ups from CMRI, please read <a href="https://www.cmrijeansforgenes.org.au/research/opportunities-for-research-students/cmri-phd-research-award">here</a>.	
 	</div>
 </div>    
 
