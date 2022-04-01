@@ -52,7 +52,13 @@
   email: cchen@cmri.org.au
   role: PhD Student
   program: Health & Medicine, CMRI, USyd
-  
+
+- name: Hao Huang
+  photo: "/images/Daniel.jpg"
+  email: hhua3090@uni.sydney.edu.au
+  role: PhD student
+  program: Health & Medicine, CMRI, USyd
+
 - name: Hao Huang
   photo: "/images/Hao.jpg"
   email: hhua3090@uni.sydney.edu.au
