@@ -42,13 +42,8 @@
   email: thomas.geddes@sydney.edu.au
   role: PhD Student
   program: Life Sciences, USyd
+  other: <a href="/Publications/publications_Tom.html">Publications</a>
 
-- name: Taiyun Kim
-  photo: "/images/Taiyun.jpg"
-  email: taiyun.kim@sydney.edu.au
-  role: PhD Student
-  program: Maths & Stats, USyd
-  
 - name: Carissa Chen
   photo: "/images/Carissa.jpg"
   email: cchen@cmri.org.au
