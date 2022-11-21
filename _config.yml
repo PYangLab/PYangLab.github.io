@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Pengyi Yang Group
+title: Computational Systems Biology Group
 email: pengyi.yang@sydney.edu.au
 description: > # this means to ignore newlines until "baseurl:"
-  The website of Pengyi Yang. Sydney University.
+  The website of Computational Systems Biology Group. Sydney University.
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pengyiyang.github.io" # the base hostname & protocol for your site
 twitter_username: PengyiYang82
