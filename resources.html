@@ -4,8 +4,7 @@ layout: default
 
 
 <div class="container">
-    <h3>Tools and resource related to single-cell omics data</h3>
-    <br>
+    <h3><b>Tools and resource related to single-cell omics data</b></h3>
     <!--
     <h4>Most of the software and packages in developing phase are hosted on 
         <a href="https://github.com/PYangLab/">https://github.com/PYangLab/</a></h4>
@@ -76,7 +75,7 @@ layout: default
     
     
     
-    <h3>Tools and resource related to proteomics and phosphoproteomics data</h3>
+    <h3><b>Tools and resource related to proteomics and phosphoproteomics data</b></h3>
     <br>
     
     <!-- PhosR -->
@@ -85,7 +84,7 @@ layout: default
             <img class="img-responsive" src="/resources/image/PhosR.png"/ Align="Left">
         </div>
         <div class="col-md-11">
-            <h3 class="projects">PhosR</h3>
+            <h3><font color="#8B0000">PhosR</font></h3>
             An R package for comprehensive analysis of phosphoproteomic data. PhosR consists of various processing tools for phosphoproteomic data including filtering, imputation, normalisaton and batch correction using stably phosphorylated sites (SPS), which enables integration of multiple phosphoproteomic datasets. Downstream analytical tools consists of site- and protein-centric pathway analysis to evaluate activities of kinases and signalling pathways, large-scale kinase-substrate annotation from dynamic phosphoproteomic profiling, and visualisation and construction of signalomes present in the phosphoproteomic data of interest.
             <br><br>
             [<a href="https://github.com/PYangLab/PhosR">Github Repo</a>], 
@@ -113,7 +112,7 @@ layout: default
     <!-- Stable phosphoproteome -->
     <div class="section row" style="background-color: #F9F9F9;">
         <div class="col-md-12">
-            <h3 class="projects">Stably phosphorylated sites</h3>
+            <h3><font color="#8B0000">Stably phosphorylated sites</font></h3>
             This list of stably phosphorylated sites (SPS) is identified from across 53 human phosphoproteomics datasets, covering 40 cell/tissue types and 194 conditions/treatments. SPS can be used for batch correction, normalisation, and integration of multiple phosphoproteomics datasets as in PhosR. The SPS themselves were evolutionarily conserved, functionally important, and enriched in a range of core signalling and gene pathways, including RNA splicing pathway, an essential cellular process in mammalian cells, and frequently disrupted by cancer mutations.
             <br><br>
             [<a href="/resources/Supplementary Table 2.xlsx">List of SPS</a>], 
@@ -136,7 +135,7 @@ layout: default
             <img class="img-responsive" src="/resources/image/ClueR.png"/ Align="Left">
         </div>
         <div class="col-md-11">
-            <h3 class="projects">ClueR</h3>
+            <h3><font color="#8B0000">ClueR</font></h3>
             Cluster evaluation R (ClueR) package is designed for identifying optimal fuzzy c-means clustering of a given mass spectrometry (MS)-based phosphoproteomics data based on prior knowledge of kinase substrate relationships such as those from PhosphoSitePlus database.
             <br><br>
             [<a href="https://github.com/PYangLab/ClueR">Github Repo & tutorial</a>], 
@@ -154,18 +153,13 @@ layout: default
     </div>
     <br>
     
-    
-    <!-- KinasePA -->
-    
-    <!-- directPA -->
-    
     <!-- kinase substrate prediction -->
     <div class="section row" style="background-color: #F9F9F9;">
         <div class="image col-md-1">
             <img class="img-responsive" src="/resources/image/PUEL.png"/ Align="Left">
         </div>
         <div class="col-md-11">
-            <h3 class="projects">KSP-PUEL</h3>
+            <h3><font color="#8B0000">KSP-PUEL</font></h3>
             Positive-unlabeled ensemble learning (PUEL) for kinase substrate prediction (KSP-PUEL) is an application developed for predicting novel substrates of kinases of interest using MS-based phosphoproteomics data by learning from kinase recognition motifs and substrate phosphorylation profiles.
             <br><br>
             [<a href="https://github.com/PYangLab/KSP-PUEL">Github Repo</a>]
@@ -182,8 +176,41 @@ layout: default
     </div>
     <br>
 
+    <!-- directPA -->
+    <div class="section row" style="background-color: #F9F9F9;">
+        <div class="col-md-12">
+            <h3><font color="#8B0000">directPA & KinasePA</font></h3>
+            An R package designed to identify combinatorial effects of multiple treatments and/or perturbations on pathways and kinases profiled by microarray, RNA-seq, proteomics, or phosphoproteomics data.
+            <br><br>
+            [<a href="https://github.com/PYangLab/directPA">Github Repo & tutorial</a>], 
+            [<a href="https://cran.r-project.org/package=directPA">CRAN R package</a>],
+            [<a href="http://shiny.maths.usyd.edu.au/KinasePA">Shiny app</a>]
+            <br><br>
+            The input data for the Shiny app should be a csv file separated by comma. The rows of the data file are phosphorylation 
+            sites and the columns are treatment1 vs control and treatment2 vs control. The values of the data file 
+            should be log2 fold changes. Here is an example <a href="http://www.maths.usyd.edu.au/u/pengyi/software/KinasePA/HEK.csv">File</a>
+            <br><br>
+            
+			<b><u>Yang, P.</b></u><sup>&#10018;</sup>, Patrick, E.<sup>&#10018;</sup>, Tan, S., Fazakerley, D., Burchfield, J., Gribben, C., Prior, M., James, D. & Yang, J. (2014). 
+			Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway. 
+			<b><i>Bioinformatics</i></b>, 30(6), 808-814.
+			[<a href="https://doi.org/10.1093/bioinformatics/btt616">Full Text</a>],
+			[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/Direction.pdf">PDF</a>]
+			<br><br>
+            
+            <b><u>Yang, P.</b></u>, Patrick, E., Humphrey, S., Ghazanfar, S., James, D., Jothi, R. & Yang, J. (2016). 
+			KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis.
+			<b><i>Proteomics</i></b>, 16(13), 1868-1871.
+			[<a href="https://doi.org/10.1002/pmic.201600068">Full Text</a>]
+			<br><br>
+        </div>
+        <br>
+    </div>
+    <br>
     
-	 <ul>
+
+    
+    <ul>
 	 	
          
          <!--
@@ -210,18 +237,6 @@ layout: default
      	</li><br>
      	
 	 	
-     	
-     	<li><font color="#8B0000"><b>directPA</b></font> (<a href="https://cran.r-project.org/package=directPA">https://cran.r-project.org/package=directPA</a>)<br>
-     	Direction analysis is a set of tools designed to identify combinatorial effects of multiple treatments 
-     	and/or perturbations on pathways and kinases profiled by microarray, RNA-seq, proteomics, or phosphoproteomics.
-     	<br><br>
-     	Reference:<br>
-			<b><u>Yang, P.</b></u><sup>&#10018;</sup>, Patrick, E.<sup>&#10018;</sup>, Tan, S., Fazakerley, D., Burchfield, J., Gribben, C., Prior, M., James, D. & Yang, J. (2014). 
-			Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway. 
-			<b><i>Bioinformatics</i></b>, 30(6), 808-814.
-			[<a href="http://www.ncbi.nlm.nih.gov/pubmed/24167158">Pubmed</a>],
-			[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/Direction.pdf">PDF</a>]
-     	</li>
 	 </ul>
 	 
 	 <h3>Shiny apps</h3>
