@@ -61,7 +61,13 @@
   email: hhua3090@uni.sydney.edu.au
   role: MPhil student
   program: Maths & Stats, USyd
-  
+
+- name: Manoj Wagle
+  photo: "/images/Manoj.jpeg"
+  email: 
+  role: PhD student
+  program: Maths & Stats, USyd
+
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
   photo: "/images/Cat.png"
