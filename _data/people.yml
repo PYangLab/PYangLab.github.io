@@ -4,12 +4,14 @@
   email: pengyi.yang@sydney.edu.au
   role: NHMRC Investigator
   program: Group Leader
+  other: <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/pengyi-yang.html">USyd profile</a>
   
 - name: Katie Zyner
   photo: "/images/Katie.jpg"
   email: kzyner@cmri.org.au
   role: Senior Research Officer
-  program: Computational Systems Biology, CMRI, USyd
+  program: <a href="https://www.sydney.edu.au/medicine-health/about/our-people/academic-staff/katherine-zyner.html">USyd profile</a>
+  other: <a href="https://scholar.google.com/citations?user=t1N_YfUAAAAJ&hl=en">Publications</a>
   
 - name: Hani Kim
   photo: "/images/Hani.png"
