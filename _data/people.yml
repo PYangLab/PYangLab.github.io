@@ -17,21 +17,19 @@
   photo: "/images/Hani.png"
   email: jieun.kim@sydney.edu.au
   role: Research Officer
-  program: Computational Systems Biology, CMRI, USyd
+  program: <a href="https://www.sydney.edu.au/medicine-health/about/our-people/academic-staff/hani.kim.html">USyd profile</a>
   other: <a href="https://scholar.google.com/citations?user=dVDoGfgAAAAJ&hl=en">Google Scholar profile</a>
   
 - name: Chunlei Liu
   photo: "/images/Chunlei.jpg"
   email: cliu@cmri.org.au
   role: Research Officer
-  program: Computational Systems Biology, CMRI, USyd
   other: <a href="https://scholar.google.com/citations?hl=en&user=simShQ0AAAAJ">Google Scholar profile</a>
     
 - name: Sharon Long
   photo: "/images/Sharon.jpg"
   email: slon6753@uni.sydney.edu.au
   role: Research Officer
-  program: Computational Systems Biology, CMRI, USyd
   other: <a href="https://scholar.google.com/citations?user=zeutMxcAAAAJ&hl=en">Google Scholar profile</a>    
 
 - name: Di Xiao
