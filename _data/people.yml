@@ -12,14 +12,7 @@
   role: Senior Research Officer
   program: <a href="https://www.sydney.edu.au/medicine-health/about/our-people/academic-staff/katherine-zyner.html">USyd profile</a>
   other: <a href="https://scholar.google.com/citations?user=t1N_YfUAAAAJ&hl=en">Google Scholar profile</a>
-  
-- name: Hani Kim
-  photo: "/images/Hani.png"
-  email: jieun.kim@sydney.edu.au
-  role: Research Officer
-  program: <a href="https://www.sydney.edu.au/medicine-health/about/our-people/academic-staff/hani.kim.html">USyd profile</a>
-  other: <a href="https://scholar.google.com/citations?user=dVDoGfgAAAAJ&hl=en">Google Scholar profile</a>
-  
+
 - name: Chunlei Liu
   photo: "/images/Chunlei.jpg"
   email: cliu@cmri.org.au
@@ -63,13 +56,6 @@
   email: dkim@cmri.org.au
   role: PhD student
   program: Health & Medicine, CMRI, USyd
-
-- name: Hao Huang
-  photo: "/images/Hao.jpg"
-  email: hhua3090@uni.sydney.edu.au
-  role: MPhil student
-  program: Maths & Stats, USyd
-  other: <a href="https://scholar.google.com/citations?hl=en&user=uMmhXtMAAAAJ">Google Scholar profile</a>
 
 - name: Manoj M Wagle
   photo: "/images/Manoj.jpg"
