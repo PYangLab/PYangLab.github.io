@@ -30,7 +30,13 @@
   email: dxiao@cmri.org.au
   role: Research Officer
   other: <a href="https://scholar.google.com/citations?hl=en&user=5IcmOLIAAAAJ">Google Scholar profile</a>
-  
+
+- name: Anna Fredericks
+  photo: "/images/Anna.jpg"
+  email: 
+  role: Research Assistent
+  program: CMRI, USyd
+
 - name: Lijia Yu
   photo: "/images/Lijia.jpg"
   email: liyu3896@uni.sydney.edu.au
@@ -42,12 +48,6 @@
   email: cchen@cmri.org.au
   role: PhD Student
   program: Health & Medicine, CMRI, USyd
-
-- name: Anna Fredericks
-  photo: "/images/Anna.jpg"
-  email: 
-  role: Research Assistent
-  program: CMRI, USyd
 
 - name: Daniel Kim
   photo: "/images/Daniel.jpg"
