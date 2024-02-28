@@ -51,6 +51,12 @@
   role: PhD Student
   program: Health & Medicine, CMRI, USyd
 
+- name: Anna Fredericks
+  photo: "/images/Anna.jpg"
+  email: 
+  role: Research Assistent
+  program: CMRI, USyd
+
 - name: Daniel Kim
   photo: "/images/Daniel.jpg"
   email: dkim@cmri.org.au
