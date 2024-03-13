@@ -31,11 +31,11 @@
   role: Research Officer
   other: <a href="https://scholar.google.com/citations?hl=en&user=5IcmOLIAAAAJ">Google Scholar profile</a>
 
-- name: Anna Fredericks
-  photo: "/images/Anna.jpg"
-  email: 
-  role: Research Assistent
-  program: CMRI, USyd
+- name: Carissa Chen
+  photo: "/images/Carissa.png"
+  email: cchen@cmri.org.au
+  role: PhD Student
+  program: Health & Medicine, CMRI, USyd
 
 - name: Lijia Yu
   photo: "/images/Lijia.jpg"
@@ -43,11 +43,11 @@
   role: PhD Student
   program: Maths & Stats, USyd
 
-- name: Carissa Chen
-  photo: "/images/Carissa.png"
-  email: cchen@cmri.org.au
-  role: PhD Student
-  program: Health & Medicine, CMRI, USyd
+- name: Anna Fredericks
+  photo: "/images/Anna.jpg"
+  email: 
+  role: Research Assistent
+  program: CMRI, USyd
 
 - name: Daniel Kim
   photo: "/images/Daniel.jpg"
@@ -67,6 +67,12 @@
   role: PhD Student
   program: Life Sciences, USyd
   other: <a href="/Publications/publications_Tom.html">Publications</a>
+
+- name: Sichang Ding
+  photo: "/images/Sichang.jpg"
+  email: sding@cmri.org.au
+  role: Research student
+  program: Computer Science, USyd
 
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
