@@ -17,18 +17,21 @@
   photo: "/images/Chunlei.jpg"
   email: cliu@cmri.org.au
   role: Research Officer
+  program: CMRI
   other: <a href="https://scholar.google.com/citations?hl=en&user=simShQ0AAAAJ">Google Scholar profile</a>
 
 - name: Sharon Long
   photo: "/images/Sharon.jpg"
   email: slon6753@uni.sydney.edu.au
   role: Research Officer
+  program: CMRI
   other: <a href="https://scholar.google.com/citations?user=zeutMxcAAAAJ&hl=en">Google Scholar profile</a>    
 
 - name: Di Xiao
   photo: "/images/Di.jpg"
   email: dxiao@cmri.org.au
   role: Research Officer
+  program: CMRI
   other: <a href="https://scholar.google.com/citations?hl=en&user=5IcmOLIAAAAJ">Google Scholar profile</a>
 
 - name: Carissa Chen
@@ -48,7 +51,7 @@
   photo: "/images/Anna.jpg"
   email: 
   role: Research Assistent
-  program: CMRI, USyd
+  program: Health & Medicine, CMRI, USyd
 
 - name: Daniel Kim
   photo: "/images/Daniel.jpg"
