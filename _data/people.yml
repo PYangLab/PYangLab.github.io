@@ -2,9 +2,9 @@
 - name: Pengyi Yang
   photo: "/images/Pengyi.jpg"
   email: pengyi.yang@sydney.edu.au
-  role: NHMRC Investigator
-  program: Group Leader
-  other: <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/pengyi-yang.html">USyd profile</a>
+  role: Lab Head
+  program: <a href="https://www.sydney.edu.au/science/about/our-people/academic-staff/pengyi-yang.html">USyd profile</a>
+  other: <a href="https://scholar.google.com/citations?user=HsNxhQEAAAAJ&hl=en">Google Scholar profile</a>
   
 - name: Katie Zyner
   photo: "/images/Katie.jpg"
@@ -18,7 +18,7 @@
   email: cliu@cmri.org.au
   role: Research Officer
   other: <a href="https://scholar.google.com/citations?hl=en&user=simShQ0AAAAJ">Google Scholar profile</a>
-    
+
 - name: Sharon Long
   photo: "/images/Sharon.jpg"
   email: slon6753@uni.sydney.edu.au
@@ -36,6 +36,7 @@
   email: cchen@cmri.org.au
   role: PhD Student
   program: Health & Medicine, CMRI, USyd
+  other: <a href="https://scholar.google.com/citations?hl=en&user=tKMHjJEAAAAJ">Google Scholar profile</a>
 
 - name: Lijia Yu
   photo: "/images/Lijia.jpg"
