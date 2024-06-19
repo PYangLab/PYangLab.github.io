@@ -49,9 +49,15 @@
 
 - name: Anna Fredericks
   photo: "/images/Anna.jpg"
-  email: 
-  role: Research Assistent
+  email: afredericks@cmri.org.au
+  role: PhD Student
   program: Health & Medicine, CMRI, USyd
+
+- name: Yuzhu Tian
+  photo: "/images/Yuzhu.jpg"
+  email: 
+  role: PhD student
+  program: Maths & Stats, CMRI, USyd
 
 - name: Daniel Kim
   photo: "/images/Daniel.jpg"
