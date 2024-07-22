@@ -34,6 +34,12 @@
   program: CMRI
   other: <a href="https://scholar.google.com/citations?hl=en&user=5IcmOLIAAAAJ">Google Scholar profile</a>
 
+- name: Sonu Sahadevan
+  photo: "/images/Sonu.jpg"
+  email: smalakkoth@cmri.org.au
+  role: Research Officer
+  program: CMRI
+  
 - name: Carissa Chen
   photo: "/images/Carissa.png"
   email: cchen@cmri.org.au
