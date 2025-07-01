@@ -55,7 +55,7 @@
 
 - name: Yuzhu Tian
   photo: "/images/Yuzhu.jpg"
-  email: 
+  email: ytia0933@sydney.edu.au
   role: PhD student
   program: Maths & Stats, CMRI, USyd
 
@@ -70,7 +70,7 @@
   email: mwag8019@uni.sydney.edu.au
   role: PhD student
   program: Maths & Stats, CMRI, USyd
-    
+
 - name: Thomas Geddes
   photo: "/images/Tom.png"
   email: thomas.geddes@sydney.edu.au
@@ -81,8 +81,14 @@
 - name: Sichang Ding
   photo: "/images/Sichang.jpg"
   email: sding@cmri.org.au
-  role: Research student
-  program: Computer Science, USyd
+  role: PhD Student
+  program: Maths & Stats, CMRI, USyd
+
+- name: Samuel Jolley
+  photo: "/images/Samuel.jpg"
+  email: 
+  role: PhD Student
+  program: Maths & Stats, CMRI, USyd
 
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
