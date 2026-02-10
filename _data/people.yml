@@ -71,13 +71,6 @@
   role: PhD student
   program: Maths & Stats, CMRI, USyd
 
-- name: Thomas Geddes
-  photo: "/images/Tom.png"
-  email: thomas.geddes@sydney.edu.au
-  role: PhD Student
-  program: Life Sciences, USyd
-  other: <a href="/Publications/publications_Tom.html">Publications</a>
-
 - name: Sichang Ding
   photo: "/images/Sichang.jpg"
   email: sding@cmri.org.au
@@ -87,6 +80,12 @@
 - name: Samuel Jolley
   photo: "/images/Samuel.jpg"
   email: sjolley@cmri.org.au
+  role: PhD Student
+  program: Maths & Stats, CMRI, USyd
+
+- name: Pranav Kataria
+  photo: "/images/Pranav.jpg"
+  email: pkataria@cmri.org.au
   role: PhD Student
   program: Maths & Stats, CMRI, USyd
 
