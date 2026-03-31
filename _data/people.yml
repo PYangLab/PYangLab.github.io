@@ -27,25 +27,11 @@
   program: CMRI
   other: <a href="https://scholar.google.com/citations?user=zeutMxcAAAAJ&hl=en">Google Scholar profile</a>    
 
-- name: Di Xiao
-  photo: "/images/Di.jpg"
-  email: dxiao@cmri.org.au
-  role: Research Officer
-  program: CMRI
-  other: <a href="https://scholar.google.com/citations?hl=en&user=5IcmOLIAAAAJ">Google Scholar profile</a>
-
 - name: Sonu Sahadevan
   photo: "/images/Sonu.jpg"
   email: smalakkoth@cmri.org.au
   role: Research Officer
   program: CMRI
-  
-- name: Carissa Chen
-  photo: "/images/Carissa.png"
-  email: cchen@cmri.org.au
-  role: PhD Student
-  program: Health & Medicine, CMRI, USyd
-  other: <a href="https://scholar.google.com/citations?hl=en&user=tKMHjJEAAAAJ">Google Scholar profile</a>
 
 - name: Anna Fredericks
   photo: "/images/Anna.jpg"
@@ -88,6 +74,12 @@
   email: pkataria@cmri.org.au
   role: PhD Student
   program: Maths & Stats, CMRI, USyd
+
+- name: Carla Wahlich
+  photo: "/images/Carla.png"
+  email: 
+  role: PhD Student
+  program: Health & Medicine, CMRI, USyd
 
 - name: Join our lab!
   role: Please email to <a href="mailto:pengyi.yang@sydney.edu.au">Pengyi Yang</a> to discuss potential research projects.
