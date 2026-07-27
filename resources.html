@@ -1,350 +1,625 @@
 ---
 layout: default
+title: Software and Resources
+excerpt: Current software, benchmarks, general-purpose tools and legacy web resources from the Computational Systems Biology group.
 ---
 
+<div class="resources-page">
+    <div class="resources-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="resources-kicker">Software ecosystem</p>
+                    <h1>Software and resources</h1>
+                    <p class="resources-lead">
+                        Our software ecosystem supports the lab's research programme in cell identity, interpretable AI, single-cell and spatial omics, organoid systems, and disease-state modelling.
+                    </p>
+                    <p>
+                        The resources below are organised to match the five research directions on the <a href="/research.html">Research</a> page. General-purpose tools and legacy projects are retained after the tabs so the full software record remains visible.
+                    </p>
+                    <div class="resources-actions">
+                        <a class="btn btn-primary resources-button" href="/research.html">Research narrative</a>
+                        <a class="btn btn-default resources-button" href="/cell-fate-programming.html">Cell-fate programming theme</a>
+                        <a class="btn btn-default resources-button" href="https://github.com/PYangLab">PYangLab GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="resources-identity">
+                        <img src="/images/labLogo.png" alt="Computational Systems Biology lab logo">
+                        <h2>Organisation</h2>
+                        <ul>
+                            <li>Aligned to the five research directions.</li>
+                            <li>Current flagship tools first within each tab.</li>
+                            <li>Broad-use and legacy tools retained below the tabs.</li>
+                            <li>Focused links to code, documentation and papers.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="container">
+    <div class="resources-section">
+        <div class="container">
+            <ul class="nav nav-tabs resources-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a href="#cell-identity" aria-controls="cell-identity" role="tab" data-toggle="tab">Cell Identity</a>
+                </li>
+                <li role="presentation">
+                    <a href="#interpretable-ai" aria-controls="interpretable-ai" role="tab" data-toggle="tab">Interpretable AI</a>
+                </li>
+                <li role="presentation">
+                    <a href="#omics-tools" aria-controls="omics-tools" role="tab" data-toggle="tab">Omics Tools</a>
+                </li>
+                <li role="presentation">
+                    <a href="#organoid-systems" aria-controls="organoid-systems" role="tab" data-toggle="tab">Organoid Systems</a>
+                </li>
+                <li role="presentation">
+                    <a href="#disease-modelling" aria-controls="disease-modelling" role="tab" data-toggle="tab">Disease Modelling</a>
+                </li>
+            </ul>
 
-    <br>
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/images/labLogo.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">A central repository for projects of the Computational Systems Biology (CSB) group</font></h3>
-            <a href="https://github.com/PYangLab">https://github.com/PYangLab</a>
-            <br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    
-    <h2>Tools and resource related to single-cell omics data</h2>
-    
+            <div class="tab-content resources-tab-content">
+                <div role="tabpanel" class="tab-pane active" id="cell-identity">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Research direction 1</p>
+                        <h2>Cell identity and cell-fate decisions</h2>
+                        <p>
+                            Tools for defining cell identity, improving annotation, integrating single-cell references, modelling multimodal identity signals and prioritising candidate regulators or compounds for cell-state conversion.
+                        </p>
+                    </div>
+                    <div class="row resources-card-grid">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Cell identity genes</p>
+                                <h3>Cepo</h3>
+                                <p>Identifies cell-identity genes using differential stability in single-cell RNA-seq data.</p>
+                                <div class="resource-links">
+                                    <a href="https://pyanglab.github.io/Cepo/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/Cepo.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1038/s43588-021-00172-2">Paper</a>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- Cepo -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/resources/image/Cepo_logo.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">Cepo</font></h3>
-            A new method to detect cell identity genes from single-cell RNA-sequencing data using differential stability, a biologically motivated metric. Cepo computes cell-type specific gene statistics pertaining to differential stable gene expression.
-            <br><br>
-            [<a href="https://pyanglab.github.io/Cepo/">Github Repo</a>], 
-            [<a href="https://bioconductor.org/packages/release/bioc/html/Cepo.html">BioC R package</a>], 
-            [<a href="https://pyanglab.github.io/Cepo/articles/cepo.html">User tutorial</a>]
-            <br><br>
-            
-            <b>Kim, H.</b>, Wang, K., <b>Chen, C.</b>, Lin, Y., Tam, PPL., Lin, D., Yang, J. & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2021)
-            Uncovering cell identity through differential stability with Cepo.
-            <b><i>Nature Computational Science</i></b>, 1, 784-790.
-            [<a href="https://doi.org/10.1038/s43588-021-00172-2">Full Text</a>]
-            [<a href="https://rdcu.be/cDyXi">Nature Content Sharing link</a>]
-            <br><br>
-            
-            <b>Kim, H.</b>, Tam, P. & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2021)
-            Defining cell identity beyond the premise of differential gene expression.
-            <b><i>Cell Regeneration</i></b>, 10, 20.
-            [<a href="https://doi.org/10.1186/s13619-021-00083-7">Full Text</a>]
-			<br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    <!-- CiteFuse -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/resources/image/CiteFuse.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">CiteFuse</font></h3>
-            A suite of methods and tools for CITE-seq data analysis from pre-processing to integrative analytics, including doublet detection, network-based modality integration, cell type clustering, differential RNA and protein expression analysis, ADT evaluation, ligand-receptor interaction analysis, and interactive web-based visualisation of the analyses.
-            <br><br>
-            [<a href="https://sydneybiox.github.io/CiteFuse/">Github Repo</a>], 
-            [<a href="http://www.bioconductor.org/packages/release/bioc/html/CiteFuse.html">BioC R package</a>], 
-            [<a href="https://sydneybiox.github.io/CiteFuse/articles/CiteFuse.html">User tutorial</a>]
-            <br><br>
-            
-            <b>Kim, H.</b><sup>&#10018;</sup>, Lin, Y.<sup>&#10018;</sup>, Geddes, T., Yang, J. & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2020)
-            CiteFuse enables multi-modal analysis of CITE-seq data.
-            <b><i>Bioinformatics</i></b>, 36(14), 4137-4143.
-            [<a href="https://doi.org/10.1093/bioinformatics/btaa282">Full Text</a>]
-            <br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    <!-- scReClassify -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/resources/image/scReClassify.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">scReClassify</font></h3>
-            scReClassify is a method for correcting potentially mislabelled cells in single-cell RNA-sequencing data. It uses a semi-supervised algorithm, adaSampling, to learn and predict mis-annotation of cell types in the dataset.
-            <br><br>
-            [<a href="https://github.com/SydneyBioX/scReClassify">Github Repo & tutorial</a>], 
-            [<a href="http://www.bioconductor.org/packages/release/bioc/html/scReClassify.html">BioC R package</a>]
-            <br><br>
-            
-			<b>Kim, T.</b>, Lo, K., <b>Geddes, T.</b>, <b>Kim, H.</b>, Yang, J. & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2019)
-			scReClassify: post hoc cell type classification of single-cell RNA-seq data.
-			<b><i>BMC Genomics</i></b>, 20, 913.
-			[<a href="https://doi.org/10.1186/s12864-019-6305-x">Full Text</a>]
-			<br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    <!-- SEGs -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="col-md-12">
-            <h3><font color="#8B0000">Stably expressed genes</font></h3>
-            Stably expressed genes (SEGs) are genes that express at similar levels across individual cells in a large number of cell types. They are identified from large-scale mouse and human sinlge-cell RNA-seq datasets covering a large number of cell types. SEGs can be used for batch correction and integration of multiple datasets. Biologically, SEGs share similar characteristics of housekeeping genes.
-            <br><br>
-            [<a href="/resources/scHK_mouse.xlsx">List of mouse SEGs</a>], 
-            [<a href="/resources/scHK_human.xlsx">List of human SEGs</a>], 
-            [<a href="http://shiny.maths.usyd.edu.au/SEGs">Interactive tool for SEG download</a>]
-            <br><br>
-            
-    		Lin, Y., Ghazanfar, S., Strbenac, D., Wang, A., Patrick, E., Lin, D., Speed, T., Yang, J.<sup>&dagger;</sup> & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2019)
-    		Evaluating stably expressed genes in single cells.
-    		<b><i>GigaScience</i></b>, 8(9), giz106.
-            [<a href="https://doi.org/10.1093/gigascience/giz106">Full Text</a>]
-    		[<a href="http://gigadb.org/dataset/100637">Giga DB</a>]
-    		<br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    
-    <h2>Tools and resource related to proteomics and phosphoproteomics data</h2>
-    
-    <!-- PhosR -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/resources/image/PhosR.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">PhosR</font></h3>
-            An R package for comprehensive analysis of phosphoproteomic data. PhosR consists of various processing tools for phosphoproteomic data including filtering, imputation, normalisaton and batch correction using stably phosphorylated sites (SPS), which enables integration of multiple phosphoproteomic datasets. Downstream analytical tools consists of site- and protein-centric pathway analysis to evaluate activities of kinases and signalling pathways, large-scale kinase-substrate annotation from dynamic phosphoproteomic profiling, and visualisation and construction of signalomes present in the phosphoproteomic data of interest.
-            <br><br>
-            [<a href="https://github.com/PYangLab/PhosR">Github Repo</a>], 
-            [<a href="http://www.bioconductor.org/packages/release/bioc/html/PhosR.html">BioC R package</a>], 
-            [<a href="https://pyanglab.github.io/PhosR/">User tutorial</a>], 
-            [<a href="https://pyanglab.github.io/PhosR/articles/web/PhosR_STAR_protocols.html">STAR Protocol</a>]
-            <br><br>
-            
-            <b>Kim, H.</b><sup>&#10018;</sup>, <b>Kim, T.</b><sup>&#10018;</sup>, Hoffman, N., <b>Xiao, D.</b>, James, D., Humphrey, S. & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2021)
-            PhosR enables processing and functional analysis of phosphoproteomic data.
-            <b><i>Cell Reports</i></b>, 34(8), 108771.
-            [<a href="https://doi.org/10.1016/j.celrep.2021.108771">Full Text</a>]
-            <br><br>
-            
-            <b>Kim, H.</b>, <b>Kim, T.</b>, <b>Xiao, D.</b> & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2021)
-            Protocol for the processing and downstream analysis of phosphoproteomic data with PhosR.
-            <b><i>STAR Protocols</i></b>, 2(2), 100585.
-            [<a href="https://doi.org/10.1016/j.xpro.2021.100585">Full Text</a>]
-            <br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    <!-- Stable phosphoproteome -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="col-md-12">
-            <h3><font color="#8B0000">Stably phosphorylated sites</font></h3>
-            This list of stably phosphorylated sites (SPS) is identified from across 53 human phosphoproteomics datasets, covering 40 cell/tissue types and 194 conditions/treatments. SPS can be used for batch correction, normalisation, and integration of multiple phosphoproteomics datasets as in PhosR. The SPS themselves were evolutionarily conserved, functionally important, and enriched in a range of core signalling and gene pathways, including RNA splicing pathway, an essential cellular process in mammalian cells, and frequently disrupted by cancer mutations.
-            <br><br>
-            [<a href="/resources/human SPSs.xlsx">List of human SPS</a>], 
-            [<a href="https://github.com/PYangLab/SPSs">Github Repo</a>]
-            <br><br>
-            
-            <b>Xiao, D.</b>, <b>Kim, H.</b>, Pang, I. & <b><u>Yang, P.</b></u><sup>&dagger;</sup> (2022)
-            Functional analysis of the stable phosphoproteome reveals cancer vulnerabilities.
-            <b><i>Bioinformatics</i></b>, 38(7), 1956-1963.
-            [<a href="https://doi.org/10.1093/bioinformatics/btac015">Full Text</a>]
-            <br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    <!-- ClueR -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/resources/image/ClueR.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">ClueR</font></h3>
-            Cluster evaluation R (ClueR) package is designed for identifying optimal fuzzy c-means clustering of a given mass spectrometry (MS)-based phosphoproteomics data based on prior knowledge of kinase substrate relationships such as those from PhosphoSitePlus database.
-            <br><br>
-            [<a href="https://github.com/PYangLab/ClueR">Github Repo & tutorial</a>], 
-            [<a href="https://CRAN.R-project.org/package=ClueR">CRAN R package</a>]
-            <br><br>
-            
-			<b><u>Yang, P.</b></u><sup>&dagger;</sup>, Zheng, X., Jayaswal, V., Hu, G., Yang, J. & Jothi, R. (2015). 
-			Knowledge-based analysis for detecting key signaling events from time-series phosphoproteomics data. 
-			<b><i>PLoS Computational Biology</i></b>, 11(8), e1004403.
-			[<a href="https://doi.org/10.1371/journal.pcbi.1004403">Full Text</a>],
-			[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/knowledge-based kinase detection.pdf">PDF</a>]
-            <br><br>
-        </div>
-        <br>
-    </div>
-    <br>
-    
-    <!-- kinase substrate prediction -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="image col-md-1">
-            <img class="img-responsive" src="/resources/image/PUEL.png"/ Align="Left">
-        </div>
-        <div class="col-md-11">
-            <h3><font color="#8B0000">KSP-PUEL</font></h3>
-            Positive-unlabeled ensemble learning (PUEL) for kinase substrate prediction (KSP-PUEL) is an application developed for predicting novel substrates of kinases of interest using MS-based phosphoproteomics data by learning from kinase recognition motifs and substrate phosphorylation profiles.
-            <br><br>
-            [<a href="https://github.com/PYangLab/KSP-PUEL">Github Repo</a>]
-            <br><br>
-            
-            <b><u>Yang, P.</b></u><sup>&dagger;</sup>, Humphrey, S., James, D., Yang, J. & Jothi, R.<sup>&dagger;</sup> (2016). 
-			Positive-unlabeled ensemble learning for kinase substrate prediction from dynamic phosphoproteomics data.
-			<b><i>Bioinformatics</i></b>, 32(2), 252-259.
-       		[<a href="https://doi.org/10.1093/bioinformatics/btv550">Full Text</a>], 
-       		[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/Bioinformatics2016positiveUnlabelLearning.pdf">PDF</a>]
-       		<br><br>
-        </div>
-        <br>
-    </div>
-    <br>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Annotation correction</p>
+                                <h3>scReClassify</h3>
+                                <p>Post hoc cell-type reclassification method for correcting potentially mislabelled single-cell annotations.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/SydneyBioX/scReClassify">Repo</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/scReClassify.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1186/s12864-019-6305-x">Paper</a>
+                                </div>
+                            </div>
+                        </div>
 
-    <!-- directPA -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="col-md-12">
-            <h3><font color="#8B0000">directPA & KinasePA</font></h3>
-            An R package designed to identify combinatorial effects of multiple treatments and/or perturbations on pathways and kinases profiled by microarray, RNA-seq, proteomics, or phosphoproteomics data.
-            <br><br>
-            [<a href="https://github.com/PYangLab/directPA">Github Repo & tutorial</a>], 
-            [<a href="https://cran.r-project.org/package=directPA">CRAN R package</a>]
-            <br><br>
-            
-			<b><u>Yang, P.</b></u><sup>&#10018;</sup>, Patrick, E.<sup>&#10018;</sup>, Tan, S., Fazakerley, D., Burchfield, J., Gribben, C., Prior, M., James, D. & Yang, J. (2014). 
-			Direction pathway analysis of large-scale proteomics data reveals novel features of the insulin action pathway. 
-			<b><i>Bioinformatics</i></b>, 30(6), 808-814.
-			[<a href="https://doi.org/10.1093/bioinformatics/btt616">Full Text</a>], 
-			[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/Direction.pdf">PDF</a>]
-			<br><br>
-            
-            <b><u>Yang, P.</b></u>, Patrick, E., Humphrey, S., Ghazanfar, S., James, D., Jothi, R. & Yang, J. (2016). 
-			KinasePA: Phosphoproteomics data annotation using hypothesis driven kinase perturbation analysis.
-			<b><i>Proteomics</i></b>, 16(13), 1868-1871.
-			[<a href="https://doi.org/10.1002/pmic.201600068">Full Text</a>]
-			<br><br>
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Multiscale annotation</p>
+                                <h3>scClassify</h3>
+                                <p>Performs multiscale cell-type classification using single or multiple references and supports sample-size estimation.</p>
+                                <div class="resource-links">
+                                    <a href="https://sydneybiox.github.io/scClassify/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/scClassify.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.15252/msb.20199389">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Single-cell integration</p>
+                                <h3>scMerge</h3>
+                                <p>Integrates and normalises single-cell RNA-seq data using stably expressed genes and pseudo-replicates.</p>
+                                <div class="resource-links">
+                                    <a href="https://sydneybiox.github.io/scMerge/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/scMerge.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1073/pnas.1820006116">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Multimodal identity modelling</p>
+                                <h3>Matilda</h3>
+                                <p>Multi-task learning framework for multimodal single-cell omics, including simulation, dimension reduction, classification and feature selection.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/Matilda">Repo</a>
+                                    <a href="https://pyanglab.github.io/Matilda/">Docs</a>
+                                    <a href="https://pypi.org/project/matilda-sc/">PyPI</a>
+                                    <a href="https://doi.org/10.1093/nar/gkad157">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Cell-state conversion</p>
+                                <h3>Refate</h3>
+                                <p>Prioritises candidate genes, networks and compounds for directed cellular conversion from starting to target cell states.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/Refate">Repo</a>
+                                    <a href="https://pyanglab.github.io/Refate/Refate.html">Tutorial</a>
+                                    <a href="http://shiny.maths.usyd.edu.au/Refate_Shiny/">Shiny</a>
+                                    <a href="https://doi.org/10.1101/2025.07.09.664003">Preprint</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="interpretable-ai">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Research direction 2</p>
+                        <h2>Interpretable AI for single-cell systems biology</h2>
+                        <p>
+                            Tools and frameworks for learning from high-dimensional single-cell and multimodal data while exposing the features, programs and cell states that support each prediction.
+                        </p>
+                    </div>
+                    <div class="row resources-card-grid">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Interpretable deep generative learning</p>
+                                <h3>Hydra</h3>
+                                <p>Deep generative ensemble learning framework for unimodal and multimodal single-cell omics, with interpretable feature attribution and cell-type annotation.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/SydneyBioX/Hydra">Repo</a>
+                                    <a href="https://sydneybiox.github.io/Hydra/">Tutorial</a>
+                                    <a href="https://pypi.org/project/hydra-tools/">PyPI</a>
+                                    <a href="https://doi.org/10.1038/s44320-026-00208-7">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Multi-task learning</p>
+                                <h3>Matilda</h3>
+                                <p>Jointly learns several multimodal single-cell tasks, including simulation, classification, feature selection and representation learning.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/Matilda">Repo</a>
+                                    <a href="https://pyanglab.github.io/Matilda/">Docs</a>
+                                    <a href="https://pypi.org/project/matilda-sc/">PyPI</a>
+                                    <a href="https://doi.org/10.1093/nar/gkad157">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Feature selection benchmark</p>
+                                <h3>scDeepFeatures</h3>
+                                <p>Evaluation resource for deep learning-based feature selection in single-cell RNA-seq analysis.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/scDeepFeatures">Repo</a>
+                                    <a href="https://doi.org/10.1186/s13059-023-03100-x">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Positive-unlabelled learning</p>
+                                <h3>AdaSampling</h3>
+                                <p>Adaptive sampling for positive-unlabelled and label-noise learning in bioinformatics applications.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/AdaSampling">Repo</a>
+                                    <a href="https://cran.r-project.org/package=AdaSampling">CRAN</a>
+                                    <a href="https://doi.org/10.1109/TCYB.2018.2816984">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="omics-tools">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Research direction 3</p>
+                        <h2>Single-cell, spatial and multimodal omics tools</h2>
+                        <p>
+                            Tools and benchmarks for reproducible data integration, annotation, multimodal analysis, spatial transcriptomics and phosphoproteomics.
+                        </p>
+                    </div>
+                    <div class="row resources-card-grid">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Multimodal benchmarking</p>
+                                <h3>scMultiBench</h3>
+                                <p>Multitask benchmark for single-cell multimodal omics integration methods across vertical, diagonal, mosaic and cross-modality settings.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/scMultiBench">Repo</a>
+                                    <a href="http://shiny.maths.usyd.edu.au/scMultiBench/">Shiny</a>
+                                    <a href="https://doi.org/10.1038/s41592-025-02856-3">Paper</a>
+                                    <a href="https://doi.org/10.1038/s41588-025-02437-2">Highlight</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Spatial benchmarking</p>
+                                <h3>SVGbench</h3>
+                                <p>Benchmark resource for evaluating spatially variable gene detection methods in spatial transcriptomics data.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/SVGbench">Repo</a>
+                                    <a href="https://doi.org/10.1186/s13059-023-03145-y">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">CITE-seq analysis</p>
+                                <h3>CiteFuse</h3>
+                                <p>Supports preprocessing, integration, clustering, differential analysis and visualisation for CITE-seq data.</p>
+                                <div class="resource-links">
+                                    <a href="https://sydneybiox.github.io/CiteFuse/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/CiteFuse.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1093/bioinformatics/btaa282">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Phosphoproteomics</p>
+                                <h3>PhosR</h3>
+                                <p>Processes phosphoproteomic data and supports kinase, pathway, signalome and phosphorylation-site analyses.</p>
+                                <div class="resource-links">
+                                    <a href="https://pyanglab.github.io/PhosR/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/PhosR.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1016/j.celrep.2021.108771">Paper</a>
+                                    <a href="https://doi.org/10.1016/j.xpro.2021.100585">Protocol</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Knowledge-guided clustering</p>
+                                <h3>CLUEY</h3>
+                                <p>Knowledge-guided framework for cell-type detection and clustering of unimodal and multimodal single-cell omics data.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/SydneyBioX/CLUEY">Repo</a>
+                                    <a href="https://doi.org/10.1093/bioinformatics/btaf528">Paper</a>
+                                    <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12506888/">PMC</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Reference stable features</p>
+                                <h3>Stable genes and phosphosites</h3>
+                                <p>Reference stable genes and phosphorylation sites for single-cell and phosphoproteomic normalisation and integration.</p>
+                                <div class="resource-links">
+                                    <a href="/resources/scHK_mouse.xlsx">Mouse SEGs</a>
+                                    <a href="/resources/scHK_human.xlsx">Human SEGs</a>
+                                    <a href="/resources/human%20SPSs.xlsx">Human SPSs</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="organoid-systems">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Research direction 4</p>
+                        <h2>Stem cell and organoid systems</h2>
+                        <p>
+                            Resources for assessing cell-state fidelity, developmental progression and disease-relevant organoid systems.
+                        </p>
+                    </div>
+                    <div class="row resources-card-grid">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Retinal organoids</p>
+                                <h3>Eikon</h3>
+                                <p>Interactive retinal cell identity and retinal organoid fidelity resource.</p>
+                                <div class="resource-links">
+                                    <a href="https://shiny.maths.usyd.edu.au/Eikon/">Shiny</a>
+                                    <a href="https://doi.org/10.1016/j.stemcr.2022.12.002">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Brain atlas</p>
+                                <h3>BrainSTEM</h3>
+                                <p>Single-cell multiresolution fetal brain atlas for culture and organoid fidelity assessment.</p>
+                                <div class="resource-links">
+                                    <a href="http://brainstem.ouyanglab.com">Resource</a>
+                                    <a href="https://doi.org/10.1126/sciadv.adu7944">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Pluripotency atlas</p>
+                                <h3>Stem Cell Atlas</h3>
+                                <p>Multi-omic resource for phased progression of pluripotency.</p>
+                                <div class="resource-links">
+                                    <a href="http://stemcellatlas.org/">Resource</a>
+                                    <a href="https://doi.org/10.1016/j.cels.2019.03.012">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Cerebral organoids</p>
+                                <h3>TransOmicsData</h3>
+                                <p>Data and code resource for trans-omic profiling of early human cerebral organoid formation.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/TransOmicsData">Repo</a>
+                                    <a href="https://doi.org/10.1016/j.celrep.2024.114219">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="disease-modelling">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Research direction 5</p>
+                        <h2>Disease-state modelling and therapeutic prioritisation</h2>
+                        <p>
+                            Tools for identifying disease-associated cell states, interpreting altered molecular features and prioritising candidate targets or compounds.
+                        </p>
+                    </div>
+                    <div class="row resources-card-grid">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Disease-associated cells</p>
+                                <h3>Hydra</h3>
+                                <p>Interpretable deep generative ensemble learning framework for identifying cell-type-specific features and preserving disease-relevant signatures.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/SydneyBioX/Hydra">Repo</a>
+                                    <a href="https://sydneybiox.github.io/Hydra/">Tutorial</a>
+                                    <a href="https://pypi.org/project/hydra-tools/">PyPI</a>
+                                    <a href="https://doi.org/10.1038/s44320-026-00208-7">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Directional molecular change</p>
+                                <h3>SwitchClass</h3>
+                                <p>Label-switch classification framework for distinguishing attenuated and escalated molecular features across perturbation, recovery and disease trajectories.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/SwitchClass">Repo</a>
+                                    <a href="https://doi.org/10.1101/2025.10.29.685265">Preprint</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Sample-level modelling</p>
+                                <h3>scFeatures</h3>
+                                <p>Generates sample-level multi-view representations from single-cell and spatial data for disease-outcome modelling.</p>
+                                <div class="resource-links">
+                                    <a href="https://sydneybiox.github.io/scFeatures/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/scFeatures.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1093/bioinformatics/btac590">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Candidate intervention prioritisation</p>
+                                <h3>Refate</h3>
+                                <p>Links regulatory-network modelling to candidate compound prioritisation for directed cell-state conversion and reprogramming hypotheses.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/Refate">Repo</a>
+                                    <a href="https://pyanglab.github.io/Refate/Refate.html">Tutorial</a>
+                                    <a href="http://shiny.maths.usyd.edu.au/Refate_Shiny/">Shiny</a>
+                                    <a href="https://doi.org/10.1101/2025.07.09.664003">Preprint</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Signalling and phosphorylation</p>
+                                <h3>PhosR</h3>
+                                <p>Supports phosphoproteomic processing and kinase/signalling analyses relevant to disease-state interpretation.</p>
+                                <div class="resource-links">
+                                    <a href="https://pyanglab.github.io/PhosR/">Docs</a>
+                                    <a href="https://bioconductor.org/packages/release/bioc/html/PhosR.html">Bioconductor</a>
+                                    <a href="https://doi.org/10.1016/j.celrep.2021.108771">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
     </div>
-    <br>
-    
-    
-    <h2>General purpose tools</h2>
-    
-    <!-- AdaSampling -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="col-md-12">
-            <h3><font color="#8B0000">AdaSampling</font></h3>
-            AdaSampling is a semi-supervised model for learning from data with noisy class labels or only positive class. It can be applied to scenarios where there are mislabelled training examples in the data or only positive training examples are known whereas negative examples are unknown.
-            <br><br>
-            [<a href="https://CRAN.R-project.org/package=AdaSampling">CRAN package</a>], 
-            [<a href="https://github.com/PengyiYang/AdaSampling">Github Repo</a>]
-            <br><br>
-            
-            <b><u>Yang, P.</u></b><sup>&dagger;</sup>, Ormerod, J., Liu, W., <b>Ma, C.</b>, Zomaya, A. & Yang, J. (2019) 
-			AdaSampling for positive-unlabeled and label noise learning with bioinformatics applications.
-			<b><i>IEEE Transactions on Cybernetics</b></i>, 49(5), 1932-1943.
-			[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/AdaSampling_v11.pdf">PDF</a>]
-			<br><br>
-            
-            <b><u>Yang, P.</u></b>, Liu, W. & Yang, J. (2017) 
-			Positive unlabeled learning via wrapper-based adaptive sampling.
-			In <i>Proceedings of the 26th International Joint Conference on Artificial Intelligence <b>(IJCAI)</b></i>, 
-			Pre-print [<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/IJCAI17_Yang.pdf">PDF</a>]
-			<br><br>
+
+    <div class="resources-section resources-section-muted">
+        <div class="container">
+            <div class="resources-section-heading">
+                <p class="resources-kicker">Foundational methods</p>
+                <h2>Proteomics, phosphoproteomics and machine-learning foundations</h2>
+                <p>
+                    Earlier methods that remain useful for signalling, pathway analysis and machine-learning work connected to the lab's current programme.
+                </p>
+            </div>
+            <div class="row resources-compact-grid">
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>ClueR</h3>
+                        <p>Knowledge-based clustering for phosphoproteomic time-series data using kinase-substrate relationships.</p>
+                        <div class="resource-links">
+                            <a href="https://github.com/PYangLab/ClueR">Repo</a>
+                            <a href="https://cran.r-project.org/package=ClueR">CRAN</a>
+                            <a href="https://doi.org/10.1371/journal.pcbi.1004403">Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>directPA and KinasePA</h3>
+                        <p>Pathway and kinase perturbation analysis for transcriptomic, proteomic and phosphoproteomic datasets.</p>
+                        <div class="resource-links">
+                            <a href="https://github.com/PYangLab/directPA">Repo</a>
+                            <a href="https://cran.r-project.org/package=directPA">CRAN</a>
+                            <a href="https://doi.org/10.1093/bioinformatics/btt616">directPA</a>
+                            <a href="https://doi.org/10.1002/pmic.201600068">KinasePA</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>KSP-PUEL</h3>
+                        <p>Positive-unlabelled ensemble learning for kinase-substrate prediction from dynamic phosphoproteomics.</p>
+                        <div class="resource-links">
+                            <a href="https://github.com/PYangLab/KSP-PUEL">Repo</a>
+                            <a href="https://doi.org/10.1093/bioinformatics/btv550">Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
     </div>
-    <br>
-    
-    <!-- SSO -->
-    <div class="section row" style="background-color: #F9F9F9;">
-        <div class="col-md-12">
-            <h3><font color="#8B0000">Sample Subset Optimization (SSO)</font></h3>
-            Sample subset optimization (SSO) is a sampling technique that utilize an evolutionary algorithm to optimize sample subsets for learning from imbalanced dataset. The key idea is to select a subset of most representative training examples from the major class and combine them with the minor class to generate a balance data for training classification models. 
-            <br><br>
-            [<a href="http://www.maths.usyd.edu.au/u/pengyi/software/Sampling.html">Software</a>] 
-            <br><br>
-            
-			<b><u>Yang, P.</b></u><sup>&dagger;</sup>, Yoo, P., Fernando, J., Zhou, B., Zhang, Z. & Zomaya, A. (2014). 
-			Sample subset optimization techniques for imbalanced and ensemble learning problems in bioinformatics applications. 
-			<b><i>IEEE Transactions on Cybernetics</i></b>, 44(3), 445-455.
-			[<a href="https://doi.org/10.1109/TCYB.2013.2257480">Full Text</a>]
-			[<a href="http://www.maths.usyd.edu.au/u/pengyi/publication/SSO for imbalanced and ensemble learning.pdf">PDF</a>]
-            <br><br>
-            
-			<b><u>Yang, P.</b></u>, Zhang, Z., Zhou, B. & Zomaya, A. (2011). 
-			Sample subset optimization for classifying imbalanced biological data. 
-			In <i>Proceedings of the 15th Pacific-Asia Conference on Knowledge Discovery and Data Mining <b>(PAKDD)</b></i>, 
-			Lecture Notes in Artificial Intelligence 6635, Springer Berlin Heidelberg, 333-344.
-			[<a href="https://doi.org/10.1007/978-3-642-20847-8_28">Text</a>]
-            <br><br>
+
+    <div class="resources-section">
+        <div class="container">
+            <div class="resources-section-heading">
+                <p class="resources-kicker">General-purpose tools</p>
+                <h2>Reusable machine-learning resources</h2>
+                <p>
+                    Broad methods that support learning from noisy labels, positive-only examples and imbalanced biological datasets, even when they do not sit neatly inside one current research-direction tab.
+                </p>
+            </div>
+            <div class="row resources-compact-grid">
+                <div class="col-sm-6">
+                    <div class="resource-compact">
+                        <h3>AdaSampling</h3>
+                        <p>Semi-supervised adaptive sampling for positive-unlabelled learning and learning from noisy class labels in bioinformatics applications.</p>
+                        <div class="resource-links">
+                            <a href="https://github.com/PYangLab/AdaSampling">Repo</a>
+                            <a href="https://cran.r-project.org/package=AdaSampling">CRAN</a>
+                            <a href="https://doi.org/10.1109/TCYB.2018.2816984">Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="resource-compact">
+                        <h3>Sample Subset Optimization</h3>
+                        <p>Evolutionary sample-subset selection for imbalanced data and ensemble learning problems in bioinformatics applications.</p>
+                        <div class="resource-links">
+                            <a href="http://www.maths.usyd.edu.au/u/pengyi/software/Sampling.html">Software</a>
+                            <a href="https://doi.org/10.1109/TCYB.2013.2257480">TCYB paper</a>
+                            <a href="https://doi.org/10.1007/978-3-642-20847-8_28">PAKDD paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
     </div>
-    <br>
-    
-	
-	<h2>Legacy projects hosted on Google Code</h2>
-    
-    <div class="section row" style="background-color: #F9F9F9;">
-        <br>
-        <ul>
-            <li>Legacy version of sample subset optimization package<br> 
-            <a href="https://code.google.com/p/sample-subset-optimization/">https://code.google.com/p/sample-subset-optimization</a><br><br>
-            </li>
 
-            <li>A machine learning algorithm in Java for protein inference<br>
-            <a href="http://code.google.com/p/re-fraction/">http://code.google.com/p/re-fraction</a><br><br>
-            </li>
+    <div class="resources-section resources-section-muted">
+        <div class="container">
+            <div class="resources-section-heading">
+                <p class="resources-kicker">Legacy projects</p>
+                <h2>Archived Google Code projects</h2>
+                <p>
+                    Historical software projects are kept here as part of the lab's research and methods record. Some archive links may resolve through the old Google Code archive rather than an actively maintained repository.
+                </p>
+            </div>
+            <div class="row resources-compact-grid">
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>Sample Subset Optimization</h3>
+                        <p>Legacy version of the sample subset optimization package.</p>
+                        <div class="resource-links">
+                            <a href="https://code.google.com/p/sample-subset-optimization/">Archive</a>
+                        </div>
+                    </div>
+                </div>
 
-            <li>A boosted learning algorithm in Java for peptide filtering<br>
-            <a href="http://code.google.com/p/self-boosted-percolator/">http://code.google.com/p/self-boosted-percolator</a><br><br>
-            </li>
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>Re-Fraction</h3>
+                        <p>Machine-learning algorithm in Java for protein inference.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/re-fraction/">Archive</a>
+                        </div>
+                    </div>
+                </div>
 
-            <li>A parallel genetic algorithm in Java for SNP interaction detection<br>
-            <a href="http://code.google.com/p/genetic-ensemble-snpx/">http://code.google.com/p/genetic-ensemble-snpx</a><br><br>
-            </li>
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>Self-Boosted Percolator</h3>
+                        <p>Boosted learning algorithm in Java for peptide filtering.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/self-boosted-percolator/">Archive</a>
+                        </div>
+                    </div>
+                </div>
 
-            <li>An ensemble algorithm in Perl for SNP interaction filtering<br>
-            <a href="http://code.google.com/p/ensemble-of-filters/">http://code.google.com/p/ensemble-of-filters</a><br><br>
-            </li>
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>Genetic Ensemble SNPX</h3>
+                        <p>Parallel genetic algorithm in Java for SNP interaction detection.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/genetic-ensemble-snpx/">Archive</a>
+                        </div>
+                    </div>
+                </div>
 
-            <li>An open source mass spectrometry analysis pipeline in R<br>
-            <a href="http://code.google.com/p/ocap/">http://code.google.com/p/ocap</a><br><br>
-            </li>
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>Ensemble of Filters</h3>
+                        <p>Ensemble algorithm in Perl for SNP interaction filtering.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/ensemble-of-filters/">Archive</a>
+                        </div>
+                    </div>
+                </div>
 
-            <li>A dynamic wavelet package in C/C++ for mass spectrum modeling<br>
-            <a href="http://code.google.com/p/dywave/DyWave/">http://code.google.com/p/dywave/DyWave</a><br><br>
-            </li>
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>OCAP</h3>
+                        <p>Open source mass spectrometry analysis pipeline in R.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/ocap/">Archive</a>
+                        </div>
+                    </div>
+                </div>
 
-            <li>A particle swarm optimisation algorithm in Java for imbalanced data sampling<br>
-            <a href="http://code.google.com/p/imbalanced-data-sampling/">http://code.google.com/p/imbalanced-data-sampling</a><br><br>
-            </li>	
-        </ul>
-	</div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>DyWave</h3>
+                        <p>Dynamic wavelet package in C/C++ for mass spectrum modelling.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/dywave/DyWave/">Archive</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="resource-compact">
+                        <h3>Imbalanced Data Sampling</h3>
+                        <p>Particle swarm optimisation algorithm in Java for imbalanced data sampling.</p>
+                        <div class="resource-links">
+                            <a href="http://code.google.com/p/imbalanced-data-sampling/">Archive</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
