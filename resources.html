@@ -15,7 +15,7 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                         Our software ecosystem supports the lab's research programme in cell identity, interpretable AI, single-cell and spatial omics, organoid systems, and disease-state modelling.
                     </p>
                     <p>
-                        The resources below are organised to match the five research directions on the <a href="/research.html">Research</a> page. General-purpose tools and legacy projects are retained after the tabs so the full software record remains visible.
+                        The resources below are organised to match the five research directions on the <a href="/research.html">Research</a> page. General-purpose tools and legacy projects are retained in one additional tab so the full software record remains visible.
                     </p>
                     <div class="resources-actions">
                         <a class="btn btn-primary resources-button" href="/research.html">Research narrative</a>
@@ -29,7 +29,7 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                         <ul>
                             <li>Aligned to the five research directions.</li>
                             <li>Current flagship tools first within each tab.</li>
-                            <li>Broad-use and legacy tools retained below the tabs.</li>
+                            <li>Broad-use and legacy tools retained in one additional tab.</li>
                             <li>Focused links to code, documentation and papers.</li>
                         </ul>
                     </div>
@@ -55,6 +55,9 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                 </li>
                 <li role="presentation">
                     <a href="#disease-modelling" aria-controls="disease-modelling" role="tab" data-toggle="tab">Disease Modelling</a>
+                </li>
+                <li role="presentation">
+                    <a href="#general-legacy" aria-controls="general-legacy" role="tab" data-toggle="tab">General &amp; Legacy</a>
                 </li>
             </ul>
 
@@ -478,133 +481,132 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="resources-section">
-        <div class="container">
-            <div class="resources-section-heading">
-                <p class="resources-kicker">General-purpose tools</p>
-                <h2>Reusable machine-learning resources</h2>
-                <p>
-                    Broad methods that support learning from noisy labels, positive-only examples and imbalanced biological datasets, even when they do not sit neatly inside one current research-direction tab.
-                </p>
-            </div>
-            <div class="row resources-compact-grid">
-                <div class="col-sm-6">
-                    <div class="resource-compact">
-                        <h3>AdaSampling</h3>
-                        <p>Semi-supervised adaptive sampling for positive-unlabelled learning and learning from noisy class labels in bioinformatics applications.</p>
-                        <div class="resource-links">
-                            <a href="https://github.com/PYangLab/AdaSampling">Repo</a>
-                            <a href="https://cran.r-project.org/package=AdaSampling">CRAN</a>
-                            <a href="https://doi.org/10.1109/TCYB.2018.2816984">Paper</a>
+                <div role="tabpanel" class="tab-pane" id="general-legacy">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Additional resources</p>
+                        <h2>General-purpose and legacy tools</h2>
+                        <p>
+                            Broad machine-learning methods and historical software projects that remain part of the lab's methods record, even when they do not sit neatly inside one current research-direction tab.
+                        </p>
+                    </div>
+
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">General-purpose tools</p>
+                        <h2>Reusable machine-learning resources</h2>
+                    </div>
+                    <div class="row resources-compact-grid">
+                        <div class="col-sm-6">
+                            <div class="resource-compact">
+                                <h3>AdaSampling</h3>
+                                <p>Semi-supervised adaptive sampling for positive-unlabelled learning and learning from noisy class labels in bioinformatics applications.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/AdaSampling">Repo</a>
+                                    <a href="https://cran.r-project.org/package=AdaSampling">CRAN</a>
+                                    <a href="https://doi.org/10.1109/TCYB.2018.2816984">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="resource-compact">
+                                <h3>Sample Subset Optimization</h3>
+                                <p>Evolutionary sample-subset selection for imbalanced data and ensemble learning problems in bioinformatics applications.</p>
+                                <div class="resource-links">
+                                    <a href="http://www.maths.usyd.edu.au/u/pengyi/software/Sampling.html">Software</a>
+                                    <a href="https://doi.org/10.1109/TCYB.2013.2257480">TCYB paper</a>
+                                    <a href="https://doi.org/10.1007/978-3-642-20847-8_28">PAKDD paper</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-sm-6">
-                    <div class="resource-compact">
-                        <h3>Sample Subset Optimization</h3>
-                        <p>Evolutionary sample-subset selection for imbalanced data and ensemble learning problems in bioinformatics applications.</p>
-                        <div class="resource-links">
-                            <a href="http://www.maths.usyd.edu.au/u/pengyi/software/Sampling.html">Software</a>
-                            <a href="https://doi.org/10.1109/TCYB.2013.2257480">TCYB paper</a>
-                            <a href="https://doi.org/10.1007/978-3-642-20847-8_28">PAKDD paper</a>
-                        </div>
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Legacy projects</p>
+                        <h2>Archived Google Code projects</h2>
+                        <p>
+                            Historical software projects are kept here as part of the lab's research and methods record. Some archive links may resolve through the old Google Code archive rather than an actively maintained repository.
+                        </p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="resources-section resources-section-muted">
-        <div class="container">
-            <div class="resources-section-heading">
-                <p class="resources-kicker">Legacy projects</p>
-                <h2>Archived Google Code projects</h2>
-                <p>
-                    Historical software projects are kept here as part of the lab's research and methods record. Some archive links may resolve through the old Google Code archive rather than an actively maintained repository.
-                </p>
-            </div>
-            <div class="row resources-compact-grid">
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>Sample Subset Optimization</h3>
-                        <p>Legacy version of the sample subset optimization package.</p>
-                        <div class="resource-links">
-                            <a href="https://code.google.com/p/sample-subset-optimization/">Archive</a>
+                    <div class="row resources-compact-grid">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>Sample Subset Optimization</h3>
+                                <p>Legacy version of the sample subset optimization package.</p>
+                                <div class="resource-links">
+                                    <a href="https://code.google.com/p/sample-subset-optimization/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>Re-Fraction</h3>
-                        <p>Machine-learning algorithm in Java for protein inference.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/re-fraction/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>Re-Fraction</h3>
+                                <p>Machine-learning algorithm in Java for protein inference.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/re-fraction/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>Self-Boosted Percolator</h3>
-                        <p>Boosted learning algorithm in Java for peptide filtering.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/self-boosted-percolator/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>Self-Boosted Percolator</h3>
+                                <p>Boosted learning algorithm in Java for peptide filtering.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/self-boosted-percolator/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>Genetic Ensemble SNPX</h3>
-                        <p>Parallel genetic algorithm in Java for SNP interaction detection.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/genetic-ensemble-snpx/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>Genetic Ensemble SNPX</h3>
+                                <p>Parallel genetic algorithm in Java for SNP interaction detection.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/genetic-ensemble-snpx/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>Ensemble of Filters</h3>
-                        <p>Ensemble algorithm in Perl for SNP interaction filtering.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/ensemble-of-filters/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>Ensemble of Filters</h3>
+                                <p>Ensemble algorithm in Perl for SNP interaction filtering.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/ensemble-of-filters/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>OCAP</h3>
-                        <p>Open source mass spectrometry analysis pipeline in R.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/ocap/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>OCAP</h3>
+                                <p>Open source mass spectrometry analysis pipeline in R.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/ocap/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>DyWave</h3>
-                        <p>Dynamic wavelet package in C/C++ for mass spectrum modelling.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/dywave/DyWave/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>DyWave</h3>
+                                <p>Dynamic wavelet package in C/C++ for mass spectrum modelling.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/dywave/DyWave/">Archive</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <div class="col-sm-6 col-md-4">
-                    <div class="resource-compact">
-                        <h3>Imbalanced Data Sampling</h3>
-                        <p>Particle swarm optimisation algorithm in Java for imbalanced data sampling.</p>
-                        <div class="resource-links">
-                            <a href="http://code.google.com/p/imbalanced-data-sampling/">Archive</a>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="resource-compact">
+                                <h3>Imbalanced Data Sampling</h3>
+                                <p>Particle swarm optimisation algorithm in Java for imbalanced data sampling.</p>
+                                <div class="resource-links">
+                                    <a href="http://code.google.com/p/imbalanced-data-sampling/">Archive</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
