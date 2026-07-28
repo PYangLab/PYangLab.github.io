@@ -12,10 +12,10 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                     <p class="resources-kicker">Software ecosystem</p>
                     <h1>Software and resources</h1>
                     <p class="resources-lead">
-                        Our software ecosystem supports the lab's research programme in cell identity, interpretable AI, single-cell and spatial omics, organoid systems, and disease-state modelling.
+                        Our software ecosystem supports the lab's research programme in cell identity, interpretable AI, single-cell and spatial omics, organoid systems, disease-state modelling, and standard-setting benchmarks.
                     </p>
                     <p>
-                        The resources below are organised to match the five research directions on the <a href="/research.html">Research</a> page. General-purpose tools and legacy projects are retained in one additional tab.
+                        The resources below are organised to match the five research directions on the <a href="/research.html">Research</a> page, with a cross-cutting tab for benchmarking and community standards. General-purpose tools and legacy projects are retained in one additional tab.
                     </p>
                     <div class="resources-actions">
                         <a class="btn btn-primary resources-button" href="/research.html">Research narrative</a>
@@ -28,6 +28,7 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                         <h2>Organisation</h2>
                         <ul>
                             <li>Aligned to the five research directions.</li>
+                            <li>Benchmarking and standard-setting resources grouped separately.</li>
                             <li>Broad-use and legacy tools retained in one additional tab.</li>
                             <li>Links to code, documentation, and papers.</li>
                         </ul>
@@ -48,6 +49,9 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                 </li>
                 <li role="presentation">
                     <a href="#omics-tools" aria-controls="omics-tools" role="tab" data-toggle="tab">Omics Tools</a>
+                </li>
+                <li role="presentation">
+                    <a href="#benchmarks-standards" aria-controls="benchmarks-standards" role="tab" data-toggle="tab">Benchmarks &amp; Standards</a>
                 </li>
                 <li role="presentation">
                     <a href="#organoid-systems" aria-controls="organoid-systems" role="tab" data-toggle="tab">Organoid Systems</a>
@@ -351,6 +355,67 @@ excerpt: Current software, benchmarks, general-purpose tools and legacy web reso
                                 <div class="resource-links">
                                     <a href="https://github.com/PYangLab/KSP-PUEL">Repo</a>
                                     <a href="https://doi.org/10.1093/bioinformatics/btv550">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div role="tabpanel" class="tab-pane" id="benchmarks-standards">
+                    <div class="resources-section-heading">
+                        <p class="resources-kicker">Cross-cutting impact</p>
+                        <h2>Benchmarking and community standards</h2>
+                        <p>
+                            Benchmarking and comparison resources that help the field move from plausibility-based assessment towards quantitative, task-specific evaluation and method selection.
+                        </p>
+                    </div>
+                    <div class="row resources-card-grid">
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Multimodal integration standards</p>
+                                <h3>scMultiBench</h3>
+                                <p>Multitask benchmark for single-cell multimodal omics integration methods across vertical, diagonal, mosaic and cross-modality settings.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/scMultiBench">Repo</a>
+                                    <a href="http://shiny.maths.usyd.edu.au/scMultiBench/">Shiny</a>
+                                    <a href="https://doi.org/10.1038/s41592-025-02856-3">Paper</a>
+                                    <a href="https://doi.org/10.1038/s41588-025-02437-2">Highlight</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Spatial method benchmarking</p>
+                                <h3>SVGbench</h3>
+                                <p>Benchmark resource for evaluating spatially variable gene detection methods in spatial transcriptomics data.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/SVGbench">Repo</a>
+                                    <a href="https://doi.org/10.1186/s13059-023-03145-y">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card resource-card-featured">
+                                <p class="resource-label">Simulation benchmarking</p>
+                                <h3>SimBench</h3>
+                                <p>Evaluation framework for comparing single-cell RNA-seq simulation methods by data-property estimation, biological-signal retention, scalability and applicability.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/SydneyBioX/SimBench">Repo</a>
+                                    <a href="https://doi.org/10.1038/s41467-021-27130-w">Paper</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-4">
+                            <div class="resource-card">
+                                <p class="resource-label">Feature-selection evaluation</p>
+                                <h3>scDeepFeatures</h3>
+                                <p>Evaluation resource for deep learning-based feature selection in single-cell RNA-seq analysis.</p>
+                                <div class="resource-links">
+                                    <a href="https://github.com/PYangLab/scDeepFeatures">Repo</a>
+                                    <a href="https://doi.org/10.1186/s13059-023-03100-x">Paper</a>
                                 </div>
                             </div>
                         </div>
