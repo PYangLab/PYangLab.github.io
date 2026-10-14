@@ -129,6 +129,13 @@ footer .social-media-list li {
     margin-right: 15px;
 }
 
+.lab-summary-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 30px;
+}
+
 
 img.pub-image {
     float: right;
